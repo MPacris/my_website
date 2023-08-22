@@ -25,6 +25,8 @@ const Navbar = () => {
             <b>About Me</b>
           </Link>
         </li>
+    
+       
         <li>
           {user ? (
             <button onClick={logoutUser}>Logout</button>

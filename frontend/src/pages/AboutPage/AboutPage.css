@@ -1,8 +1,5 @@
 /* Add your styles here */
 .about-page {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
     height: 100vh;
     background: #1e1e1e;
     color: whitesmoke;
@@ -12,24 +9,33 @@
     width: 700px;
     height: 400px;
   }
-  
-  .top-left, .top-right, .bottom-row {
-    grid-column: span 3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+
+  .image-fluid {
+    width: 200px;
+    height: 350px;
+
   }
-  
-  .top-middle, .top-right-text {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .image-flex-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  /* Additional styling as needed */
+
+.picturecard {
+  /* ... your existing styles ... */
+  position: relative; /* Add position: relative for proper stacking */
+}
+
+.picturecard:hover {
+  opacity: 0.7;
+}
+
+.figcaption {
+  position: absolute; /* Position the caption absolutely over the image */
+  top: 50%; /* Adjust to vertically center the caption */
+  left: 50%; /* Adjust to horizontally center the caption */
+  transform: translate(-50%, -50%); /* Center the caption using translate */
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white; /* Set the color to white */
+  opacity: 0; /* Start with opacity 0 */
+  transition: opacity 0.7s ease;
+}
+
+.picturecard:hover .figcaption {
+  opacity: 1;
+}

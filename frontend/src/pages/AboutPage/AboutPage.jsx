@@ -1,6 +1,5 @@
-import React from 'react';
-import './AboutPage.css'; // You can define your styles in this CSS file
-
+import React from "react";
+import "./AboutPage.css"; // You can define your styles in this CSS file
 
 const AboutPage = () => {
   return (
@@ -8,7 +7,11 @@ const AboutPage = () => {
       <div className="row">
         <div className="col-md-8">
           {/* Place your image here */}
-          <img src="/assets/MeynardPacris.jpg" alt="profile" className="profile" />
+          <img
+            src="/assets/MeynardPacris.jpg"
+            alt="profile"
+            className="profile"
+          />
         </div>
         <div className="col-md-4">
           {/* Text in top middle and top right */}
@@ -19,7 +22,10 @@ const AboutPage = () => {
           </div>
           <div className="row">
             <div className="col-md-12">
-              <p>This is the about us section where you can describe your company or team.</p>
+              <p>
+                This is the about us section where you can describe your company
+                or team.
+              </p>
             </div>
           </div>
         </div>
@@ -28,9 +34,16 @@ const AboutPage = () => {
         <div className="col-md-12">
           {/* Multiple images in the bottom row */}
           <div className="d-flex justify-content-between">
-            <img src="image_url" alt="Image 1" className="img-fluid" />
-            <img src="image_url" alt="Image 2" className="img-fluid" />
-            <img src="image_url" alt="Image 3" className="img-fluid" />
+            <div className="picturecard">
+              <img
+                src="/assets/LSU_alumn.jpg"
+                alt="interests"
+                className="image-fluid"
+              />
+              <div className="figcaption">
+                <p>LSU Alumn: Love Purple, Live Gold </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
