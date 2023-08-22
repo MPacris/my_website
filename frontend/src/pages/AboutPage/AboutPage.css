@@ -5,6 +5,11 @@
     grid-template-rows: repeat(2, 1fr);
     height: 100vh;
   }
+
+  .profile {
+    width: 800px;
+    height: 400px;
+  }
   
   .top-left, .top-right, .bottom-row {
     grid-column: span 3;

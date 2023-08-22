@@ -6,7 +6,7 @@ const AboutPage = () => {
     <div className="about-page">
       <div className="top-left">
         {/* Place your image here */}
-        <img src="image_url" alt="Top Left" />
+        <img src="/assets/MeynardPacris.jpg" alt="Top Left" className="profile" />
       </div>
       <div className="top-right">
         {/* Text in top middle and top right */}
