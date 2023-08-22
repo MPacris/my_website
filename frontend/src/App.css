@@ -6,11 +6,16 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+  background: #1e1e1e;
+  
 }
 
 html {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  background: #1e1e1e;
+  color: whitesmoke;
 }
 
 p {
@@ -38,6 +43,8 @@ button:hover {
   max-width: 600px;
   overflow: auto;
   text-align: center;
+  background: #1e1e1e;
+  color: whitesmoke;
 }
 
 .form {

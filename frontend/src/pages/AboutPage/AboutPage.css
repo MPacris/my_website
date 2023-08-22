@@ -4,10 +4,12 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     height: 100vh;
+    background: #1e1e1e;
+    color: whitesmoke;
   }
 
   .profile {
-    width: 800px;
+    width: 700px;
     height: 400px;
   }
   
