@@ -1,0 +1,28 @@
+/* Add your styles here */
+.about-page {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 100vh;
+  }
+  
+  .top-left, .top-right, .bottom-row {
+    grid-column: span 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .top-middle, .top-right-text {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .image-flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Additional styling as needed */
