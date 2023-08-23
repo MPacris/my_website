@@ -28,9 +28,6 @@ const HomePage = () => {
             <h2>St. Patrick's Cathedral</h2>
             <span>Dublin, Ireland</span>
 
-            <div class="social-icon">
-              <a href="https://www.instagram.com/p/8i37mBOkup"><i class="fab fa-instagram"></i></a>
-            </div>
           </div>
         </div>
       </div>
@@ -47,9 +44,7 @@ const HomePage = () => {
             <h2>Iglesia de San Agustín de Paoay</h2>
             <span>Paoay, Ilocos Norte, Philippines</span>
 
-            <div class="social-icon">
-              <a href="https://www.instagram.com/p/BCfWCg-OkqV"><i class="fab fa-instagram"></i></a>
-            </div>
+
           </div>
         </div>
       </div>
@@ -67,15 +62,13 @@ const HomePage = () => {
             <h2>Basilica of Sacré-Cœur de Montmartre</h2>
             <span>Paris, France</span>
 
-            <div class="social-icon">
-              <a href="https://www.instagram.com/p/CmHh1O3q6s0?img_index=2"><i class="fab fa-instagram"></i></a>
-            </div>
+
           </div>
         </div>
       </div>
     </div>
 
-    <script src="https://kit.fontawesome.com/95a02bd20d.js"></script>
+
   </div>
 
   );

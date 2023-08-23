@@ -20,6 +20,12 @@ const Navbar = () => {
             <b>About Me</b>
           </Link>
         </li>
+        <li>
+        <Link to="/churches" style={{ textDecoration: "none", color: "white" }}>
+            <b>churches</b>
+          </Link>
+        </li>
+        
     
        
 
