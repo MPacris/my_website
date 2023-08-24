@@ -8,6 +8,7 @@ import LoginPage from "./pages/LoginPage/LoginPage";
 import RegisterPage from "./pages/RegisterPage/RegisterPage";
 import ChurchesPage from "./pages/ChurchesPage/ChurchesPage";
 import AboutPage from "./pages/AboutPage/AboutPage";
+import SplidePage from "./pages/SplidePage/SplidePage";
 
 // Component Imports
 import Navbar from "./components/NavBar/NavBar";
@@ -34,6 +35,8 @@ function App() {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/churches" element={<ChurchesPage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/splides" element={<SplidePage />} />
+
 
       </Routes>
       <Footer />

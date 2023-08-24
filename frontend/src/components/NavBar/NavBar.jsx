@@ -25,6 +25,12 @@ const Navbar = () => {
             <b>churches</b>
           </Link>
         </li>
+        <li>
+        <Link to="/splides" style={{ textDecoration: "none", color: "white" }}>
+            <b>Splides</b>
+          </Link>
+        </li>
+        
         
     
        
