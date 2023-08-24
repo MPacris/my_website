@@ -30,6 +30,13 @@ const Navbar = () => {
             <b>Splides</b>
           </Link>
         </li>
+        <li>
+        <Link to="/gallery" style={{ textDecoration: "none", color: "white" }}>
+            <b>gallery</b>
+          </Link>
+        </li>
+
+
         
         
     
