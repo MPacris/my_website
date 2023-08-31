@@ -20,7 +20,9 @@ const GalleryPage = () => {
   };
 
   return (
-    <div>
+    <div className='gallery-container'>
+      <div className='row'>
+      <div className='main-image'>
       <Splide
         options={{
           rewind: true,
@@ -38,7 +40,9 @@ const GalleryPage = () => {
           </SplideSlide>
         ))}
       </Splide>
-
+      </div>
+      </div>
+      <div className='row'>
       <div className="thumbnails">
         {mainImages.map((image, index) => (
           <div
@@ -49,6 +53,7 @@ const GalleryPage = () => {
             <img src={image} alt={`Thumbnail ${index + 1}`} />
           </div>
         ))}
+      </div>
       </div>
     </div>
   );

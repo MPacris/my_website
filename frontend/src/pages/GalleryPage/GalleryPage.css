@@ -10,25 +10,32 @@
     width: 100%;
     width: 600px; /* Adjust the max-width to your preference */
     margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+
   }
   
   .thumbnails {
     display: flex;
     justify-content: center;
     gap: 0.5rem;
+    
   }
   
   .thumbnail {
-    width: 100px; /* Adjust thumbnail width as needed */
-    height: auto;
+    width: 75px; /* Adjust thumbnail width as needed */
+    height: 150px;
     cursor: pointer;
     opacity: 0.6;
     transition: opacity 0.3s ease-in-out;
+    perspective: 100%;
+    
   }
   
   .thumbnail img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    perspective: 100%;
   }
   
   .thumbnail.is-active {
