@@ -35,6 +35,11 @@ const Navbar = () => {
             <b>gallery</b>
           </Link>
         </li>
+        <li>
+        <Link to="/core" style={{ textDecoration: "none", color: "white" }}>
+            <b>Core Values</b>
+          </Link>
+        </li>
 
 
         

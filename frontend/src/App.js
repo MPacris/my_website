@@ -10,6 +10,7 @@ import ChurchesPage from "./pages/ChurchesPage/ChurchesPage";
 import AboutPage from "./pages/AboutPage/AboutPage";
 import SplidePage from "./pages/SplidePage/SplidePage";
 import GalleryPage from "./pages/GalleryPage/GalleryPage";
+import CoreValuesPage from "./pages/CoreValuesPage/CoreValuesPage";
 
 
 
@@ -40,6 +41,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/splides" element={<SplidePage />} />
         <Route path="/gallery" element={<GalleryPage />} />
+        <Route path="/core" element={<CoreValuesPage />} />
 
 
 

@@ -1,0 +1,43 @@
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .main-image {
+    width: 100%;
+    width: 600px; /* Adjust the max-width to your preference */
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .thumbnails {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    
+  }
+  
+  .thumbnail {
+    width: 75px; /* Adjust thumbnail width as needed */
+    height: 150px;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.3s ease-in-out;
+    perspective: 100%;
+    
+  }
+  
+  .thumbnail img {
+    width: 100%;
+    height: 100%;
+    perspective: 100%;
+  }
+  
+  .thumbnail.is-active {
+    opacity: 1;
+  }
