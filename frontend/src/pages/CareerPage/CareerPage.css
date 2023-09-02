@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i&display=swap");
+
+
+.card-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  align-self: center;
+}
+
+.card {
+  margin: 20px 40px 40px 20px;
+  width: 300px;
+  height: 400px;
+  transform-style: preserve-3d;
+  perspective: 400px;
+  transition: 0.1s;
+}
+
+.card .front {
+  border: solid 10px whitesmoke;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 400px;
+  backface-visibility: hidden;
+  transition: 0.1s;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.card .front .image {
+    height: 380px;
+    width: 280px;
+}
+
+.card:hover .front {
+  transform: rotateY(-180deg);
+}
+
+.card .back {
+  border: solid 10px whitesmoke;
+  width: 300px;
+  height: 400px;
+  background: #1d1d1d;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  transition: 0.1s;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.card:hover .back {
+  transform: rotateY(0deg);
+}
+
+.card .back .details {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 90%; /* Adjust the width to ensure content fits */
+  max-height: 90%; /* Adjust the max height to ensure content fits */
+  text-align: center;
+  padding: 10px; /* Adjust padding as needed */
+  box-sizing: border-box;
+  overflow-y: auto; /* Add vertical scrolling if necessary */
+  color: whitesmoke;
+}
+
+.card .back .details .caption {
+  font-weight: 100;
+  font-style: italic;
+  font-size: 12px; /* Adjust the font size as needed */
+  line-height: 1.4; /* Adjust line height as needed */
+}
+
+.card .back .details .caption, span {
+  color: whitesmoke;
+}
+

@@ -1,11 +1,7 @@
 import React from "react";
-import "./ChurchesPage.css"
-import { useEffect, useState } from "react";
-import useAuth from "../../hooks/useAuth";
+import './CareerPage.css'
 
-import axios from "axios";
-
-const ChurchesPage = () => {
+const CareerPage = () => {
 
 
 
@@ -74,4 +70,4 @@ const ChurchesPage = () => {
   );
 };
 
-export default ChurchesPage;
+export default CareerPage;

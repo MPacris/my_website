@@ -11,6 +11,7 @@ import AboutPage from "./pages/AboutPage/AboutPage";
 import SplidePage from "./pages/SplidePage/SplidePage";
 import GalleryPage from "./pages/GalleryPage/GalleryPage";
 import CoreValuesPage from "./pages/CoreValuesPage/CoreValuesPage";
+import CareerPage from "./pages/CareerPage/CareerPage";
 
 
 
@@ -20,6 +21,7 @@ import Footer from "./components/Footer/Footer";
 
 // Util Imports
 import PrivateRoute from "./utils/PrivateRoute";
+
 
 
 function App() {
@@ -42,7 +44,7 @@ function App() {
         <Route path="/splides" element={<SplidePage />} />
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/core" element={<CoreValuesPage />} />
-
+        <Route path="/career" element={<CareerPage />} />
 
 
       </Routes>

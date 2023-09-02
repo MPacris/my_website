@@ -40,6 +40,12 @@ const Navbar = () => {
             <b>Core Values</b>
           </Link>
         </li>
+        <li>
+        <Link to="/career" style={{ textDecoration: "none", color: "white" }}>
+            <b>Career Page</b>
+          </Link>
+        </li>
+
 
 
         
