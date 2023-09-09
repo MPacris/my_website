@@ -98,5 +98,12 @@
 
 .card .back .details .caption, span {
   color: whitesmoke;
+
+
+}
+
+span {
+  text-decoration: underline;
+  font-weight: bold;
 }
 
