@@ -5,15 +5,15 @@ const AboutPage = () => {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-md-8">
+        <div className="col-md-12">
           {/* Place your image here */}
           <img
-            src="/assets/MeynardPacris.jpg"
+            src="/assets/MeynardPacris.png"
             alt="profile"
             className="profile"
           />
         </div>
-        <div className="col-md-4">
+
           {/* Text in top middle and top right */}
           <div className="row">
             <div className="col-md-12">
@@ -29,7 +29,7 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
-      </div>
+
       <div className="row">
         <div className="col-md-12">
           {/* Multiple images in the bottom row */}

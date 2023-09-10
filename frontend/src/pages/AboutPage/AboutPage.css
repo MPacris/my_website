@@ -6,9 +6,12 @@
   }
 
   .profile {
-    width: 700px;
-    height: 400px;
-  }
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+  
 
   .image-fluid {
     width: 200px;
