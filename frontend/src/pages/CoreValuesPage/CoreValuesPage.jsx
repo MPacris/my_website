@@ -8,117 +8,79 @@ const CoreValuesPage = () => {
     "/assets/P_Slide.png",
     "/assets/A_Slide.png",
     "/assets/C_Slide.png",
-    "/assets/E_Slide.png",
     "/assets/R_Slide.png",
+    "/assets/I_Slide.png",
+    "/assets/S_Slide.png",
   ];
 
   // Add descriptions for each image as text with multiple paragraphs
   const textDescriptions = [
     <div>
       <h4>Professional</h4>
-      <p>
-        A professional is an individual who has attained a high level of
-        expertise, skill, and competence in a specific occupation, field, or
-        discipline. This expertise is typically backed by specialized education,
-        training, or experience, allowing professionals to provide specialized
-        services, insights, or solutions. Professionals are often held to a set
-        of ethical and moral standards within their respective fields, and their
-        conduct is expected to adhere to these standards. These individuals
-        demonstrate a commitment to continuous learning and improvement, staying
-        up-to-date with developments in their field, and applying their
-        knowledge to solve complex problems or deliver valuable services.
-      </p>
-      <p>
-        Furthermore, professionalism extends beyond technical competence; it
-        encompasses qualities such as integrity, reliability, and strong
-        communication skills. Professionals are expected to exhibit honesty and
-        transparency in their interactions, act with diligence and consistency
-        in fulfilling their responsibilities, and effectively engage with
-        colleagues, clients, or the public. This combination of expertise and
-        interpersonal skills distinguishes professionals and positions them as
-        trusted and respected figures within their professions or industries.
-      </p>
+<p>
+  A professional is an individual who has attained a high level of expertise, skill, and competence in a specific occupation, field, or discipline. This expertise is typically backed by specialized education, training, or experience, allowing professionals to provide specialized services, insights, or solutions. Professionals are often held to a set of ethical and moral standards within their respective fields, and their conduct is expected to adhere to these standards. These individuals demonstrate a commitment to continuous learning and improvement, staying up-to-date with developments in their field, and applying their knowledge to solve complex problems or deliver valuable services.
+</p>
+<p>
+  Professionalism extends beyond technical competence; it encompasses qualities such as integrity, reliability, and strong communication skills. Professionals are expected to exhibit honesty and transparency in their interactions, act with diligence and consistency in fulfilling their responsibilities, and effectively engage with colleagues, clients, or the public. This combination of expertise and interpersonal skills distinguishes professionals and positions them as trusted and respected figures within their professions or industries.
+</p>
     </div>,
 
     <div>
       <h4>Accountable</h4>
-      <p>
-        The term "accountable" refers to a fundamental concept that signifies an
-        individual's responsibility for their actions, decisions, and
-        obligations. It denotes the willingness and readiness to accept the
-        consequences, whether positive or negative, for one's behavior or
-        performance. Accountability involves being answerable to others, such as
-        authorities, peers, or stakeholders, for the outcomes of one's actions
-        and for meeting commitments, expectations, or standards.
-      </p>
-      <p>
-        In essence, being accountable implies a sense of ownership and
-        transparency in one's actions and decisions. It is a quality that is
-        highly regarded in various aspects of life, including professional,
-        personal, and ethical contexts. Individuals who are accountable take
-        their duties and obligations seriously, and they proactively ensure that
-        they meet the agreed-upon standards and expectations. Accountability
-        fosters trust, reliability, and ethical behavior, making it an essential
-        trait in both professional and personal settings.
-      </p>
+<p>
+  Being accountable means taking responsibility for one's actions, decisions, and obligations. It involves acknowledging and owning up to both successes and failures, and being answerable for the outcomes of one's choices. Accountability is a fundamental aspect of personal and professional integrity, as it demonstrates a willingness to be transparent and to learn from mistakes. In a professional context, accountability often includes meeting deadlines, honoring commitments, and fulfilling duties with a sense of diligence and reliability.
+</p>
+<p>
+  Accountability is a reflection of an individual's core values and character. It signifies a person's commitment to ethical behavior, honesty, and the well-being of others. Accountable individuals are not only accountable to themselves but also to their colleagues, clients, and the community at large. They understand the impact of their actions on others and strive to make choices that align with their values and the greater good. Ultimately, accountability is a trait that fosters trust and respect in both personal and professional relationships, as it shows that one can be counted on to act with integrity and honor their commitments.
+</p>
     </div>,
 
     <div>
       <h4>Collaborative</h4>
-      <p>
-        Collaborative describes a cooperative and mutually beneficial effort
-        involving the active participation and contributions of multiple
-        individuals or groups working together toward a shared goal, objective,
-        or project. Collaboration emphasizes open communication, synergy, and
-        the combined expertise of all parties involved. It often transcends
-        individual boundaries, promoting teamwork, unity, and the pooling of
-        resources, knowledge, and skills to achieve more collectively than what
-        could be accomplished individually.
-      </p>
-      <p>
-        In essence, being accountable implies a sense of ownership and
-        transparency in one's actions and decisions. It is a quality that is
-        highly regarded in various aspects of life, including professional,
-        personal, and ethical contexts. Individuals who are accountable take
-        their duties and obligations seriously, and they proactively ensure that
-        they meet the agreed-upon standards and expectations. Accountability
-        fosters trust, reliability, and ethical behavior, making it an essential
-        trait in both professional and personal settings.
-      </p>
+<p>
+  Collaboration refers to the act of working together with others to achieve a common goal or purpose. It involves individuals or groups pooling their resources, knowledge, and skills to solve problems, create innovative solutions, or accomplish tasks more effectively than they could on their own. Collaboration often requires effective communication, active listening, and a willingness to compromise and share responsibilities. In professional settings, collaboration is highly valued because it can lead to increased productivity, better decision-making, and the generation of diverse ideas.
+</p>
+<p>
+  Being collaborative reflects a person's core values of teamwork, cooperation, and a recognition of the collective strength of a group. Collaborative individuals thrive in environments where they can foster positive relationships, build trust, and contribute to the success of a team or organization. They are open to different perspectives and are willing to embrace the ideas and contributions of others. This trait also often indicates a commitment to achieving common goals and a desire to create a harmonious and inclusive work environment where everyone's contributions are valued and respected.
+</p>
     </div>,
 
     <div>
-      <h4>Ethical</h4>
-      <p>
-        Ethical pertains to principles, standards, and behaviors that conform to
-        a moral code or a system of accepted values, often involving notions of
-        what is right, virtuous, and just. It encompasses the distinction
-        between right and wrong, and ethical conduct is guided by a sense of
-        integrity, fairness, and responsibility towards others and the broader
-        community. Ethical actions and decisions align with established moral
-        norms and are characterized by honesty, transparency, and a commitment
-        to uphold the welfare and rights of individuals and society as a whole.
-      </p>
-      <p>
-        Ethical behavior is fundamental in various aspects of life, including
-        professions, businesses, and personal relationships. It serves as a
-        foundation for trust, credibility, and social harmony. Ethical
-        principles guide individuals and organizations in making choices that
-        consider the consequences of their actions, promoting a sense of
-        accountability and respect for diverse perspectives. Upholding ethics
-        fosters a sense of social responsibility, empathy, and justice,
-        contributing to the betterment of society and the cultivation of a moral
-        and conscientious environment.
-      </p>
-    </div>,
-
-<div>
-<h4>Resourceful</h4>
+      <h4>Resourceful</h4>
 <p>
-Resourceful describes the ability of an individual or entity to effectively and cleverly find solutions, overcome challenges, and make the most of available resources to achieve their goals or address problems. It signifies a high degree of creativity, adaptability, and ingenuity in navigating complex situations, often by using limited or unconventional means. A resourceful person excels in thinking outside the box, efficiently managing resources, and generating innovative approaches to tackle obstacles, making the most of what is at their disposal.
+  Resourcefulness is the ability to find creative and effective solutions to challenges or problems, often with limited resources. It involves thinking outside the box, adapting to changing circumstances, and making the most of available tools and assets. Resourceful individuals are skilled at problem-solving, innovation, and finding alternative paths to success when faced with obstacles. In professional contexts, resourcefulness can lead to increased efficiency, cost savings, and the ability to navigate complex situations with confidence.
 </p>
 <p>
-Being resourceful is a highly valuable trait in various aspects of life, including professional endeavors, problem-solving, and entrepreneurship. It involves leveraging one's knowledge, skills, and existing resources to optimize outcomes and seize opportunities, even when faced with constraints or uncertainties. Resourcefulness fosters resilience and self-reliance, enabling individuals to confront adversity with confidence and find inventive solutions that can lead to personal growth and success.
+  Resourcefulness reflects a person's core values of adaptability, resilience, and a proactive mindset. Resourceful individuals are not easily discouraged by setbacks or constraints; instead, they view them as opportunities for growth and learning. They are often driven by a strong sense of determination and a desire to make the most of their talents and resources to achieve their goals. Resourcefulness also implies a commitment to continuous improvement and a belief in the power of innovation to create positive change in both personal and professional life.
+</p>
+    </div>,
+
+    <div>
+      <h4>Innovative</h4>
+      <p>
+        Innovative characterizes the capacity of an individual or entity to
+        imaginatively and effectively generate new ideas, solutions, and methods
+        to address challenges or achieve objectives. It denotes a profound level
+        of creativity, adaptability, and originality in navigating intricate
+        scenarios, often by employing unconventional or groundbreaking
+        approaches. An innovative person excels in pushing the boundaries of
+        conventional thinking, continually exploring uncharted territories, and
+        crafting resourceful strategies to conquer obstacles, thereby
+        revolutionizing established norms and practices.
+      </p>
+      <p>
+  Being innovative reflects a person's core values of curiosity, creativity, and a forward-thinking mindset. Innovative individuals are driven by a desire to make a meaningful impact on their field or industry by pushing boundaries and exploring uncharted territories. They value experimentation and embrace failure as a valuable learning experience on the path to innovation. Innovation also implies a commitment to staying at the forefront of knowledge and technology, as it often requires keeping up with the latest developments and trends in one's field.
+</p>
+    </div>,
+
+    
+<div>
+<h4>Strategic</h4>
+<p>
+  Being strategic involves the ability to think critically and plan for the future, taking into consideration both short-term and long-term goals. Strategic individuals have a knack for analyzing complex situations, identifying key factors, and devising effective plans or approaches to achieve desired outcomes. They often prioritize tasks and resources based on their potential impact and align their actions with a clear vision or purpose. In professional contexts, strategic thinking can lead to more efficient decision-making, effective resource allocation, and the ability to adapt to changing circumstances.
+</p>
+<p>
+  Strategic individuals embody core values such as foresight, adaptability, and a commitment to achieving meaningful objectives. They are often driven by a sense of purpose and a desire to make a positive impact on their organizations or communities. Strategic thinking also implies a willingness to learn from past experiences and adjust strategies as needed, recognizing that the path to success may require flexibility and continuous refinement. Ultimately, being strategic is about setting a course for the future and making deliberate choices that lead to the fulfillment of long-term goals and aspirations.
 </p>
 </div>,
 
