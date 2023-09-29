@@ -4,7 +4,17 @@ import "./AboutPage.css"; // You can define your styles in this CSS file
 const AboutPage = () => {
   return (
     <div className="container">
-      <div className="row">
+        <div className="row">
+        <div className="col-md-12">
+          {/* Place your image here */}
+          <img
+            src="/assets/NOLA header.png"
+            alt="profile"
+            className="profile"
+          />
+          </div>
+
+          <div className="row">
         <div className="col-md-12">
           {/* Place your image here */}
           <img
@@ -12,7 +22,13 @@ const AboutPage = () => {
             alt="profile"
             className="profile"
           />
-        </div>
+          </div>
+   
+   
+
+      
+
+        
 
           {/* Text in top middle and top right */}
           <div className="row">
@@ -87,6 +103,7 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
