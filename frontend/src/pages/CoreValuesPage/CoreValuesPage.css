@@ -6,31 +6,38 @@
   padding: 2rem;
 }
 
+.title {
+  color: aliceblue;
+}
+
 .top-container {
   display: flex;
   flex-direction: row;
-  max-height: 600px;
+
+
 }
 .main-image {
   width: 100%;
-  max-height: 800px; /* Set the max height to 800px */
-  max-width: 400px; /* Set the max width to 400px */
-
   display: flex;
   justify-content: center;
 }
 .description {
-  width: 600px; /* Adjust the max-width to your preference */
-  margin: auto; /* Center horizontally */
+
+  margin: auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly; /* Equal space from top and bottom */
-  align-items: center; /* Center content horizontally */
-  height: 600px; /* Set the height to 800px */
-  width: 800px; /* Set the max-width to 800px */
+  justify-content: space-evenly;
+  align-items: center;
   color: whitesmoke;
   padding: 20px;
 }
+
+.bottom-container {
+  display: flex;
+  flex-direction: row;
+
+}
+
 .thumbnails {
   display: flex;
   justify-content: center;

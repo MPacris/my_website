@@ -187,6 +187,13 @@ const CoreValuesPage = () => {
   return (
     <div className="gallery-container">
       <div className="row">
+        <div className="col-lg-12">
+          <div className="title">
+          <h1>Core Values</h1>
+          </div>
+        </div>
+      </div>
+      <div className="row">
         <div className="top-container">
           <div className="col-md-4">
             <div className="main-image">
@@ -223,6 +230,7 @@ const CoreValuesPage = () => {
         </div>
       </div>
       <div className="row">
+        <div className="bottom-container">
         <div className="thumbnails">
           {mainImages.map((image, index) => (
             <div
@@ -235,6 +243,7 @@ const CoreValuesPage = () => {
           ))}
         </div>
       </div>
+    </div>
     </div>
   );
 };
